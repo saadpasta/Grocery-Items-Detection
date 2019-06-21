@@ -140,7 +140,9 @@ class App extends React.Component {
               resolve()
             }
           })
-        })
+        }).catch(err =>
+          console.log(err.message)
+        )
 
       const modelPromise = tf.loadGraphModel(MODEL_JSON)
       const labelsPromise = fetch(LABELS_URL).then(data => data.json())
