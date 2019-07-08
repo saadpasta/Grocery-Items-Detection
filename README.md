@@ -1,5 +1,8 @@
 # 🎉 Realtime Grocery Items Detection 📸
 
+### `Model is only trained on these Items`
+<img src="images/image1.PNG" width="300"/> <img src="images/image2.PNG" width="300"/> <img src="images/image3.PNG" width="300"/> <img src="images/image4.PNG" width="300"/> <img src="images/image5.PNG" width="300"/>
+
 ## Setup
 `git clone` the repo and `cd` into it by running the following command:
 
